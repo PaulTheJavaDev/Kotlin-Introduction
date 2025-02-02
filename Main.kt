@@ -8,9 +8,13 @@ fun main() {
     
     val age = scanner.nextInt()
 
+    /*
     if (age != 1) {
         println("You are $age years old!")
     } else {
         println("You are $age year old!")
     }
+     */
+
+    println(String.format("You are %d years old!", age)) //why would you ever use this :(
 }
